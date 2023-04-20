@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/image.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Header */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+nav div ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+/* Logo */
+img{
+    height: 50px;
+    width: 70px;
+    padding: 0 8%;
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+}
+/* Button */
+button{
+    background-color: #d203d2;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 30px;
+    font-weight: 900;
+}
+/* Main-Hero-Section */
+section{
+    display: flex;
+    justify-content: center;
+}
+section div h1{
+    margin: 100px 300px 10px 400px;
+    font-size: 60px;
+}
+section div p{
+    margin: 0 300px 10px 450px;
+    font-weight: 900;
+    font-size: 20px;
+}
+section div button{
+    margin: 50px 300px 10px 550px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 900;
+}
